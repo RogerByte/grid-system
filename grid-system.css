@@ -183,10 +183,12 @@ body {
 .col-sm-12,
 .col-md-12,
 .col-lg-12 {
+
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 .col-xs-1,
@@ -239,6 +241,7 @@ body {
 .col-xs-1 {
   width: 8.33333333%;
 }
+
 
 @media (min-width: 768px) {
   .col-sm-1,
