@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +48,17 @@ table {
     border-spacing: 0;
 }
 
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
 /* Nuevos colores para personalizar botones: Obtenidos de http://www.materialpalette.com/ */
 .red{
   background-color:#D32F2F;
@@ -80,15 +92,6 @@ table {
 }
 /***/
 
-
-
-
-
-
-
-
-/***/
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -96,7 +99,7 @@ table {
 }
 
 div {
-    border:1px dotted black!important;
+  
 }
 
 *:before,
@@ -123,6 +126,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
+  background-color: #ffffff;
 }
 
 .container {
