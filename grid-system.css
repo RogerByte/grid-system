@@ -47,6 +47,46 @@ table {
     border-spacing: 0;
 }
 
+/* Nuevos colores para personalizar botones: Obtenidos de http://www.materialpalette.com/ */
+.red{
+  background-color:#D32F2F;
+  text-align: center;
+}
+
+.blue{
+  background-color:#03A9F4;
+  text-align: center;
+}
+
+.orange-deep{
+  background-color:#FF5722 ;
+  text-align: center;
+}
+
+.teal{
+  background-color:#009688;
+  text-align: center;
+}
+
+.cyan{
+  background-color:#00BCD4;
+  text-align: center;
+}
+/***/
+
+/* Nuevo color para letras*/
+.leters-white{
+  color: white;
+}
+/***/
+
+
+
+
+
+
+
+
 /***/
 
 * {
@@ -83,7 +123,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #ffffff;
 }
 
 .container {
@@ -96,19 +135,18 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 750px;
-    background-color: lightblue;
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
-    background-color: lightgreen;
+
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-    background-color: lightyellow;
+
   }
 }
 
